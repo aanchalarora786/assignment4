@@ -1,0 +1,58 @@
+body{
+    align-content: center;
+    text-align: center;
+    margin-top: 10%;
+    background-image:  url("images/car.jpg");
+      /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: lavenderblush;
+
+
+}
+a:hover {
+    font-size: 32px;
+    color: brown;
+}
+.newentry{
+margin-left: 35%;
+
+}
+h1
+{
+    font-display: top;
+    color:black;
+    border: 1px;
+    min-width: 10%;
+    background: #D8F0DA;
+
+}
+table
+{
+    width: 50%;
+    background-color: #D8F0DA;
+    border: 1px;
+    min-width: 50%;
+    position: relative;
+    opacity: 0.97;
+    background: transparent;
+    min-height: 80%;
+}
+h3
+{
+    color:black;
+    border: 1px;
+    min-width: 10%;
+    background: #D8F0DA;
+    
+}
+

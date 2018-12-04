@@ -1,0 +1,149 @@
+<html>
+    <title>Prog8170_Assignment4</title>
+    <head>
+            <link rel="stylesheet" href="assignment4.css" />
+            
+    </head>
+    <body >
+        
+        <div>
+            
+           <h1> Prog8170 Assignment4</h1>
+           <h3>
+            <marquee>Please fill your Information!!!!!!! </marquee>
+           </h3>
+          
+        </div>
+        <div>
+            <center>
+                    <form method="post" action="/display" id="#myformvalidate">
+            <table style="background-color:lightpink" id="table">
+                <tr>
+                    <td>Seller Name</td>
+                    <td><input type="text" id="name" name="user[name]" required/></td>
+                    <td>
+                            <p id="error"></p>
+                    </td>
+                </tr>
+                <tr>
+                        <td>Address</td>
+                        <td><input type="text" id="address"name="user[address]"required /></td>
+                        <td>
+                            <p id="erroraddress"></p>
+                        </td>
+                </tr>
+                <tr>
+                        <td>City</td>
+                        <td><input type="text" id="city" name="user[city]" required/></td>
+                        <td>
+                            <p id="errorcity"></p>
+                        </td>
+                </tr>
+                <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" id="phonenumber" name="user[phonenumber]" required/></td>
+                        <td>
+                            <p
+                            id="errornumber"></p>
+                        </td>
+                </tr>
+                <tr>
+                        <td>Email Address</td>
+                        <td><input type="text" id="email"name="user[email]" required /></td>
+                        <td ><p id="errormail"></p></td>
+                </tr>
+
+                <br>
+                <tr>
+                    <td>
+                            <h2>Vehile Information</h3>
+                                <p>Please fill Vehicle information</p>
+                    </td>
+                </tr>
+
+                    <tr>
+                        <td><input type="text" placeholder="Vehicle make"  id="make" name="user[make]" required></td>
+                        <td><input type="text" placeholder="Model" id="model" name="user[model]"required /></td>
+                        <td><input type="text" placeholder="Year" id="year" name="user[year]" required/></td>
+                     </tr>
+                            <tr>
+                                <td><button type="submit" class="btn btn-primary">Submit</button></td>
+                               
+                                <td input type="Search">
+                                    <button id="Search" onclick="MySearch()">Search</button>
+                                </td>
+                                 </tr>
+                    
+                            </center>
+        </table>
+    </form>
+    <script>
+        $("#myformvalidate").validate();
+</script>
+           
+        </div>
+        
+        <script src="Assignment4.js"></script>
+        <style>
+        body{
+    align-content: center;
+    text-align: center;
+    margin-top: 10%;
+    background-image:url("car.jpg");
+      /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: lavenderblush;
+
+
+}
+a:hover {
+    font-size: 32px;
+    color: brown;
+}
+.newentry{
+margin-left: 35%;
+
+}
+h1
+{
+    font-display: top;
+    color:black;
+    border: 1px;
+    min-width: 10%;
+    background: #D8F0DA;
+
+}
+table
+{
+    width: 50%;
+    background-color: #D8F0DA;
+    border: 1px;
+    min-width: 50%;
+    position: relative;
+    opacity: 0.97;
+    background: transparent;
+    min-height: 80%;
+}
+h3
+{
+    color:black;
+    border: 1px;
+    min-width: 10%;
+    background: #D8F0DA;
+    
+}
+
+</style>
+        
+    </body>
+</html>
